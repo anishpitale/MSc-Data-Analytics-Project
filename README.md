@@ -82,4 +82,5 @@ A smaller sample (or preprocessed data) is available in the `/data/` folder for 
 ---
 ⭐ *If you found this project interesting, feel free to star the repo or connect with me on [LinkedIn](www.linkedin.com/in/anishpitale).*  
 
+> 💻 This project was developed and executed entirely in **Google Colab** (Python 3, Scikit-learn).
 
