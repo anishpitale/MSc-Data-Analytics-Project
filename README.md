@@ -44,7 +44,7 @@ After extensive testing, the **Random Forest** model achieved the highest accura
 | Category | Tools / Libraries |
 |-----------|-------------------|
 | Language | Python |
-| IDE / Environment | Google Colab |
+| IDE | Jupyter Notebook |
 | Data Handling | Pandas, NumPy |
 | Machine Learning | Scikit-learn |
 | Visualization | Matplotlib, Seaborn |
