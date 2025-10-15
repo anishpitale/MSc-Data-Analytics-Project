@@ -1,18 +1,70 @@
-# MSc Data Analytics Project
+# 🧠 Optimizing Fraud Detection — A Comparative Analysis of Machine Learning Algorithms
 
-Hi! I’m **Anish Pitale** 👋  
-This repository contains my MSc Dissertation project for **Dublin Business School**.
+Fraud detection is a critical challenge in financial analytics due to large-scale imbalanced data and evolving attack patterns.  
+This project applies **Machine Learning (ML)** techniques to detect fraudulent transactions, comparing the performance of various algorithms to identify the most accurate and reliable model.
 
-## 📘 Project Title
-**Optimizing Fraud Detection — Comparative Analysis of Machine Learning Algorithms**
+---
 
-## 📄 Files
-- `ANISH_PITALE_20030877_Dissertation.docx` – Full dissertation
-- `ANISH_PITALE_20030877_Dissertation_PPT.pptx` – Presentation slides
+## 🚀 Project Overview
 
-## 📊 Summary
-This project compares different machine learning algorithms (Random Forest, Decision Tree, K-Means, and Isolation Forest) for detecting credit card fraud.  
-The Random Forest model achieved the highest accuracy.
+This project demonstrates how supervised and unsupervised learning techniques can be used for **credit card fraud detection**.  
+Four algorithms were compared:
 
-## 🧠 Author
-**Anish Hemant Pitale**
+- **Decision Tree**
+- **Random Forest**
+- **K-Means Clustering**
+- **Isolation Forest**
+
+After extensive testing, the **Random Forest** model achieved the highest accuracy and recall, making it the most effective for real-world fraud detection scenarios.
+
+---
+
+## 🧩 Methodology
+
+1. **Data Preprocessing**
+   - Handled class imbalance and missing values.
+   - Performed normalization and feature scaling.
+
+2. **Exploratory Data Analysis (EDA)**
+   - Analyzed transaction distributions and correlations.
+   - Visualized fraud vs. non-fraud patterns.
+
+3. **Model Development**
+   - Trained Decision Tree, Random Forest, K-Means, and Isolation Forest.
+   - Optimized parameters using Grid Search.
+
+4. **Evaluation**
+   - Compared models based on Accuracy, Precision, Recall, and F1-score.
+   - Random Forest outperformed others in both accuracy and generalization.
+
+---
+
+## ⚙️ Tools & Libraries Used
+
+| Category | Tools / Libraries |
+|-----------|-------------------|
+| Language | Python |
+| IDE | Jupyter Notebook |
+| Data Handling | Pandas, NumPy |
+| Machine Learning | Scikit-learn |
+| Visualization | Matplotlib, Seaborn |
+| Documentation | Word, PowerPoint, GitHub |
+
+---
+
+## 📊 Key Results
+
+| Model | Type | Accuracy | Precision | Recall | F1-Score |
+|-------|------|-----------|------------|---------|-----------|
+| Random Forest | Supervised | ⭐ Highest | High | High | High |
+| Decision Tree | Supervised | Moderate | Moderate | Moderate | Moderate |
+| K-Means | Unsupervised | Low | – | – | – |
+| Isolation Forest | Unsupervised | Moderate | – | – | – |
+
+📈 **Conclusion:**  
+Random Forest offers the most reliable performance for identifying fraudulent transactions with minimal false negatives.
+
+---
+
+## 📁 Repository Structure
+
