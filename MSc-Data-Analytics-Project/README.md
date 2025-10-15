@@ -44,7 +44,7 @@ After extensive testing, the **Random Forest** model achieved the highest accura
 | Category | Tools / Libraries |
 |-----------|-------------------|
 | Language | Python |
-| IDE | Jupyter Notebook |
+| IDE / Environment | Google Colab |
 | Data Handling | Pandas, NumPy |
 | Machine Learning | Scikit-learn |
 | Visualization | Matplotlib, Seaborn |
@@ -67,4 +67,19 @@ Random Forest offers the most reliable performance for identifying fraudulent tr
 ---
 
 ## 📁 Repository Structure
+
+
+## 📊 Data File Access
+
+The main dataset used for this analysis is too large to host directly on GitHub.
+
+🔗 [Download the full Excel dataset here (Google Drive)](https://drive.google.com/file/d/1V5ZwqdVknC4Wghn7al_PmyLXf3rCAKBa/view?usp=sharing)
+
+A smaller sample (or preprocessed data) is available in the `/data/` folder for demonstration.
+
+
+
+---
+⭐ *If you found this project interesting, feel free to star the repo or connect with me on [LinkedIn](www.linkedin.com/in/anishpitale).*  
+
 
